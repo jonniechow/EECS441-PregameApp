@@ -13,6 +13,12 @@
 		FBD9F55D236FB54900A55712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F55B236FB54900A55712 /* Main.storyboard */; };
 		FBD9F55F236FB54B00A55712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F55E236FB54B00A55712 /* Assets.xcassets */; };
 		FBD9F562236FB54B00A55712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F560236FB54B00A55712 /* LaunchScreen.storyboard */; };
+		FBD9F56C236FE3E100A55712 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD9F56B236FE3E100A55712 /* ViewControllerTableViewCell.swift */; };
+		FBD9F56F236FE57100A55712 /* Ciroc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F56D236FE57100A55712 /* Ciroc.jpeg */; };
+		FBD9F570236FE57100A55712 /* Absolut.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F56E236FE57100A55712 /* Absolut.jpeg */; };
+		FBD9F5742370001900A55712 /* vodka.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F5712370001900A55712 /* vodka.png */; };
+		FBD9F5752370001900A55712 /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F5722370001900A55712 /* wine.png */; };
+		FBD9F5762370001900A55712 /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD9F5732370001900A55712 /* beer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		FBD9F55E236FB54B00A55712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD9F561236FB54B00A55712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD9F563236FB54B00A55712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD9F56B236FE3E100A55712 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		FBD9F56D236FE57100A55712 /* Ciroc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciroc.jpeg; sourceTree = "<group>"; };
+		FBD9F56E236FE57100A55712 /* Absolut.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Absolut.jpeg; sourceTree = "<group>"; };
+		FBD9F5712370001900A55712 /* vodka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodka.png; sourceTree = "<group>"; };
+		FBD9F5722370001900A55712 /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine.png; sourceTree = "<group>"; };
+		FBD9F5732370001900A55712 /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				FBD9F555236FB54900A55712 /* AppDelegate.swift */,
 				FBD9F557236FB54900A55712 /* SceneDelegate.swift */,
 				FBD9F559236FB54900A55712 /* ViewController.swift */,
+				FBD9F56E236FE57100A55712 /* Absolut.jpeg */,
+				FBD9F56D236FE57100A55712 /* Ciroc.jpeg */,
 				FBD9F55B236FB54900A55712 /* Main.storyboard */,
 				FBD9F55E236FB54B00A55712 /* Assets.xcassets */,
 				FBD9F560236FB54B00A55712 /* LaunchScreen.storyboard */,
 				FBD9F563236FB54B00A55712 /* Info.plist */,
+				FBD9F56B236FE3E100A55712 /* ViewControllerTableViewCell.swift */,
+				FBD9F5732370001900A55712 /* beer.png */,
+				FBD9F5712370001900A55712 /* vodka.png */,
+				FBD9F5722370001900A55712 /* wine.png */,
 			);
 			path = PregameApp;
 			sourceTree = "<group>";
@@ -127,7 +145,12 @@
 			files = (
 				FBD9F562236FB54B00A55712 /* LaunchScreen.storyboard in Resources */,
 				FBD9F55F236FB54B00A55712 /* Assets.xcassets in Resources */,
+				FBD9F56F236FE57100A55712 /* Ciroc.jpeg in Resources */,
+				FBD9F5742370001900A55712 /* vodka.png in Resources */,
+				FBD9F5752370001900A55712 /* wine.png in Resources */,
 				FBD9F55D236FB54900A55712 /* Main.storyboard in Resources */,
+				FBD9F5762370001900A55712 /* beer.png in Resources */,
+				FBD9F570236FE57100A55712 /* Absolut.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				FBD9F55A236FB54900A55712 /* ViewController.swift in Sources */,
 				FBD9F556236FB54900A55712 /* AppDelegate.swift in Sources */,
+				FBD9F56C236FE3E100A55712 /* ViewControllerTableViewCell.swift in Sources */,
 				FBD9F558236FB54900A55712 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GVLT4XNFW;
 				INFOPLIST_FILE = PregameApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GVLT4XNFW;
 				INFOPLIST_FILE = PregameApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
